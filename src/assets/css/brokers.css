@@ -23,6 +23,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 50px;
 }
 
+<<<<<<< HEAD
 /* Add new css 13/02/2023*/
 .chiffre{
 text-align: center;
@@ -37,6 +38,8 @@ opacity: 1;
 
 }
 
+=======
+>>>>>>> c99f764dcd9076bf6e5e488726d6ce9fa01ef095
 @media (max-width : 576px){
     .binance{
         flex-direction: column-reverse;

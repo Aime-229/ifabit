@@ -26,7 +26,11 @@ import { Helmet } from 'react-helmet';
 
 function Home () {
     return(
+<<<<<<< HEAD
         <div id='bg-home'>
+=======
+        <div>
+>>>>>>> c99f764dcd9076bf6e5e488726d6ce9fa01ef095
         <Helmet>
             <title>IFABIT | Effectuez vos transferts d'argent en toute sécurité</title>
         </Helmet>

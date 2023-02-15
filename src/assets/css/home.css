@@ -1,8 +1,12 @@
 .hero {
     height: 85vh;
     /* background-color: #131429; */
+<<<<<<< HEAD
     background: #F5F3F1 0% 0% no-repeat padding-box;
 opacity: 1;
+=======
+    background-color: #000;
+>>>>>>> c99f764dcd9076bf6e5e488726d6ce9fa01ef095
 }
 
 h1,
@@ -30,6 +34,7 @@ p {
 }
 
 .about, .devises, .faq {
+<<<<<<< HEAD
     /* background-color: #000; */
     background: #F5F3F1 0% 0% no-repeat padding-box;
 opacity: 1;
@@ -39,6 +44,13 @@ opacity: 1;
     /* background-color: #000; */
     background: #F5F3F1 0% 0% no-repeat padding-box;
 opacity: 1;
+=======
+    background-color: #000;
+}
+
+.crypto {
+    background-color: #000;
+>>>>>>> c99f764dcd9076bf6e5e488726d6ce9fa01ef095
 }
 
 .footer {

@@ -3,10 +3,15 @@
     justify-content: space-between;
 }
 header{
+<<<<<<< HEAD
     /*background-color: #000;
     background-color: #131429; */
     background: transparent linear-gradient(237deg, #FF007F 0%, #FFA502 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+=======
+    background-color: #000;
+    /* background-color: #131429; */
+>>>>>>> c99f764dcd9076bf6e5e488726d6ce9fa01ef095
     
 }
 .logo-img{

@@ -1,7 +1,8 @@
 .hero {
     height: 85vh;
     /* background-color: #131429; */
-    background-color: #000;
+    background: #F5F3F1 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 
 h1,
@@ -29,11 +30,15 @@ p {
 }
 
 .about, .devises, .faq {
-    background-color: #000;
+    /* background-color: #000; */
+    background: #F5F3F1 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 
 .crypto {
-    background-color: #000;
+    /* background-color: #000; */
+    background: #F5F3F1 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 
 .footer {

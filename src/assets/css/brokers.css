@@ -23,6 +23,20 @@ h1,h2,h3,h4,h5,h6{
     font-size: 50px;
 }
 
+/* Add new css 13/02/2023*/
+.chiffre{
+text-align: center;
+font: normal normal bold 100px/120px Paul Grotesk Trail;
+letter-spacing: 0px;
+color: #FF1E69;
+opacity: 1;
+}
+
+#bg-brokers{
+    background: transparent linear-gradient(177deg, #FFFFFF00 0%, #CBC9C7 100%) 0% 0% no-repeat padding-box;
+
+}
+
 @media (max-width : 576px){
     .binance{
         flex-direction: column-reverse;

@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
-import Chatbot from './components/Chatbot';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './components/About';
 import Portefeuilles from './components/Portefeuilles';
@@ -16,7 +15,6 @@ function App() {
   return (
     <div className="App">
     <Router basename='/'>
-    <Chatbot/>
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

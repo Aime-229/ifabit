@@ -17,13 +17,10 @@ p{
     margin-left: 10px;
 }
 
-<<<<<<< HEAD
 /* New CSS 13/02/2023 */
 
 
 
-=======
->>>>>>> c99f764dcd9076bf6e5e488726d6ce9fa01ef095
 @media (max-width : 576px){
     .ifapay{
         flex-direction: column-reverse;

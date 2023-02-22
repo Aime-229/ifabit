@@ -35,12 +35,12 @@ function Brokers() {
                 Plus de 13 000 000 traders ont déjà choisi FBS pour trader sur
                 le Forex.
               </p>
-              {/* <a
+              <a
               className="btn btn-success text-uppercase py-2"
               href="https://frfbs.com/?ppk=FMISCapital"
             >
               voir le broker
-            </a> */}
+            </a>
             </div>
             <div className="col-md-4 ">
               <div className="spinner-grow">*</div>
@@ -78,12 +78,17 @@ function Brokers() {
               <div className="">*</div>
             </div>
             <div className="col-md-4">
-              <h2>FBS</h2>
+              <h2>BINANCE</h2>
               <p>
-                FBS est un courtier international présent dans plus de 190 pays.
-                Plus de 13 000 000 traders ont déjà choisi FBS pour trader sur
-                le Forex.
+              Binance est une plateforme d’échange de cryptomonnaie mondiale qui
+              permet d’échanger plus de 100 cryptomonnaies.
               </p>
+              <a
+              className="btn btn-binance btn-lg text-uppercase py-2"
+              href="https://www.binance.com/fr/activity/referral/offers/claim?ref=CPA_00OSJ4OG7M"
+            >
+              voir le broker
+            </a>
             </div>
           </div>
         </div>
@@ -95,6 +100,12 @@ function Brokers() {
               <p>
               IronFX est un courtier basé à Chypre qui donne accès aux spéculateurs au marché de détail des changes.
               </p>
+              <a
+              className="btn btn-danger btn-lg text-uppercase py-2"
+              href="https://www.ironfx.com/fr/register?utm_source=13127940&utm_medium=ib_link&utm_campaign=IB"
+            >
+              voir le broker
+            </a>
             </div>
             <div className="col-md-4 ">
               <div className="">*</div>
@@ -115,7 +126,7 @@ function Brokers() {
         </div>
       </div>
       <div className="text-center">
-        <button className="">Commencer maintenant</button>
+        <button id="btn-partners">Commencer maintenant</button>
       </div>
       {/* <div className="container py-5">
         <p>

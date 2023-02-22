@@ -1,0 +1,144 @@
+:root {
+  --bg-primary-color: transparent linear-gradient(237deg, #FF007F 0%, #FFA502 100%) 0% 0% no-repeat padding-box;
+  --bg-secondary-color: #CBC9C7;
+  --opacity: 1;
+  --tertiary-color: brown;
+  --black-color: #302e2e;
+  --orange-color: #e7760c;
+
+}
+
+.btn-color {
+  border-color: #fff;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-color-connexion {
+  border-color: #fff;
+  color: #fff;
+}
+
+.reseau-socio {
+
+  margin: 0.3rem;
+}
+
+.cardcenter {
+
+  height: 450px;
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 1px 22px 80px #00000029;
+  opacity: 1;
+}
+
+.cardleft {
+  /* UI Properties */
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 1px 22px 80px #00000029;
+  opacity: 1;
+}
+
+.cardrigth {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 1px 22px 80px #00000029;
+  opacity: 1;
+}
+
+.txt-gradient {
+  font-size: 1.9rem;
+  background-image: linear-gradient(237deg, #FF007F 0%, #FFA502 100%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  opacity: 1;
+}
+.txt-telecharger {
+  font-size: 1.9rem;
+  background-color:#FF007F;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  opacity: 1;
+}
+
+
+.InfiniteCarousel {
+  margin-top: -180px;
+
+}
+
+.commentaire-div {
+  margin-top: 1rem;
+  /* border: 1px solid green;  */
+}
+
+.commentaire-h1 {
+  color: #FF007F;
+}
+
+.im-back {
+  margin-top: 115px;
+  height: 312px;
+  background: transparent linear-gradient(180deg, #FF1E69 0%, #FFA502 100%) 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+/* commentaire */
+.carde {
+  width: 350px !important;
+  box-shadow: -1px 20px 10px #00000029;
+  background-color: #fff;
+  border-radius: 20px;
+  opacity: 1;
+  padding: 25px;
+  z-index: 1;
+}
+
+.card {
+  width: 100% !important;
+  box-shadow: 10px 10px 40px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+  padding: 25px;
+}
+
+
+.icon-commentaire-star {
+  float: right;
+  font-size: 25px;
+  color: #FFA502;
+  margin-right: 4px;
+  opacity: 1;
+}
+
+.div-star {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+.img-commentaire {
+  border-radius: 100%;
+  border: 5px solid #fdfbfb;
+  width: 120px !important;
+  height: 120px !important;
+  
+}
+
+
+.img-commentaire-div {
+  position: absolute;
+  z-index: 2;
+  margin-left: 50px;
+  margin-top: -430px;
+  opacity: 1;
+}

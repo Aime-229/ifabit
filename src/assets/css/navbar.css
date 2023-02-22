@@ -1,17 +1,20 @@
+
+@import url(color.css);
+
+
+.bg-tertiaryColor{
+    color: gray!important;
+    
+}
 .banner{
     display: flex;
     justify-content: space-between;
 }
 header{
-<<<<<<< HEAD
-    /*background-color: #000;
-    background-color: #131429; */
-    background: transparent linear-gradient(237deg, #FF007F 0%, #FFA502 100%) 0% 0% no-repeat padding-box;
+    /* background: var(--bg-primary-color); */
+    border-bottom: none;
+    background-image: linear-gradient(237deg, #FF007F 0%, #FFA502 100%);
     opacity: 1;
-=======
-    background-color: #000;
-    /* background-color: #131429; */
->>>>>>> c99f764dcd9076bf6e5e488726d6ce9fa01ef095
     
 }
 .logo-img{
@@ -42,7 +45,7 @@ nav ul li a::after{
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #ff017e;
+    background: var(--bg-primary-color);
     transition: 0.6s ease-out;
 }
 
@@ -66,7 +69,7 @@ nav ul li a:hover{
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
     margin: 8px;
     font-family: 'Work Sans';
@@ -75,7 +78,7 @@ nav ul li a:hover{
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Work Sans';
 }
 
@@ -92,4 +95,9 @@ nav ul li a:hover{
     #signinMenu{
         width: 52%;
     }
+    .reseau-socio{
+ 
+        margin-bottom: 8px;
+        
+      }
 }

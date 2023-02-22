@@ -1,12 +1,14 @@
+@import url(color.css);
+.bg-tertiaryColor{
+    color: gray!important;
+    
+}
+
 .hero {
     height: 85vh;
-    /* background-color: #131429; */
-<<<<<<< HEAD
-    background: #F5F3F1 0% 0% no-repeat padding-box;
-opacity: 1;
-=======
-    background-color: #000;
->>>>>>> c99f764dcd9076bf6e5e488726d6ce9fa01ef095
+    background: var(--bg-primary-color);
+    border-top: none;
+    opacity: 1;
 }
 
 h1,
@@ -17,68 +19,151 @@ h5,
 h6 {
     font-family: 'Poppins';
     font-weight: bold;
-    
 }
 
 p {
     font-family: 'Work Sans';
     font-size: 18px;
     text-align: justify;
-    word-spacing: normal;
 }
-.carousel-control-prev-icon{
-    display: none;
-}
+
 .mobile {
     width: 100%;
 }
 
 .about, .devises, .faq {
-<<<<<<< HEAD
-    /* background-color: #000; */
-    background: #F5F3F1 0% 0% no-repeat padding-box;
-opacity: 1;
+    background-color: #e7760c;
 }
 
 .crypto {
-    /* background-color: #000; */
-    background: #F5F3F1 0% 0% no-repeat padding-box;
-opacity: 1;
-=======
-    background-color: #000;
-}
-
-.crypto {
-    background-color: #000;
->>>>>>> c99f764dcd9076bf6e5e488726d6ce9fa01ef095
+    background-color: #fff;
 }
 
 .footer {
-    background-color: #2c7a7c;
+    background-color: #e7760c;
     width: 100%;
 }
 
 .img-andios {
     width: 80%;
 }
-
-.download-app-img-mobile{
-    display: none;
+.crypto-icon{
+    font-size: 45px;
+    margin-left: 165px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #000;
+}
+.crypto-h5{
+    text-align: center center;
+    margin-left: 65px;
+    font-size: 28px;
+    /* color: #e7760c; */
+    width: 280px;
+    padding: 5px;
 }
 
-.call-to-action{
-    padding: 10%;
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-    url('../img/IFAphone.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
+.crypto-col{
+    margin-left: 0px;
 }
+.integrer-api{
+    background: none;
+    height: 750px;
+    /* border: 1px solid black;  */ 
+}
+.integrer-container{
+ /*  background: url(../img/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+    margin-top: 8px;
+   /*  border: 1px solid black; */
+    height: 722px!important;
+}
+.integrer-div{
+    margin-top: 80px;
+    margin-right: 100px;
+float: right;/* 
+ border: 1px solid black; */ 
+}
+.integrer-h1{
+    color: #FF1E69;
+    margin-bottom: 35px;
+}
+.btn-guide{
+    border-radius: 10px;
+    letter-spacing: 1px;
+  background: transparent linear-gradient(180deg, #FF1E69 0%, #FFA502 100%) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  opacity: 1;
+  height: 65px;
+  width: 300px;
+  text-align:  center;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-left: 15px;
+  text-transform: uppercase;
 
-.call-to-action h2{
-    font-size: 60px;
-    font-weight: bold;
+}
+.btn-guide:hover{
+    color: #ffffff;
+    filter: brightness(0.8);
+    opacity: 1;
+}
+.integrer-p{
+  text-align: justify;  
+  font-size: 23px;
+}
+.devises{
+    background: none;
+    height: 750px;
+    /* border: 1px solid black; */
+}
+.devises-api{
+    background: none;
+    height: 750px;
+    border: 1px solid black;  
+}
+.devises-container{
+ /*  background: url(../img/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+    margin-top: 8px;
+   /*  border: 1px solid black; */
+    height: 722px!important;
+}
+.devises-div{
+    margin-top: 80px;
+    margin-right: 100px;
+float: left;/* 
+ border: 1px solid black; */ 
+}
+.devises-h1{
+    color: #FF1E69;
+    margin-bottom: 35px;
+}
+.btn-guide{
+    border-radius: 10px;
+    letter-spacing: 1px;
+  background: transparent linear-gradient(180deg, #FF1E69 0%, #FFA502 100%) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  opacity: 1;
+  height: 65px;
+  width: 300px;
+  text-align:  center;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-left: 15px;
+  text-transform: uppercase;
+
+}
+.btn-guide:hover{
+    color: #ffffff;
+    filter: brightness(0.8);
+    opacity: 1;
+}
+.devises-p{
+  text-align: justify;  
+  font-size: 23px;
 }
 
 @media (max-width : 576px) {
@@ -91,21 +176,20 @@ opacity: 1;
         display: flex;
         flex-direction: column-reverse;
     }
-    .carousel-control-next-icon{
-        display: none;
+
+    #CarouselImgHome {
+        height: 130px !important;
+        width: 350px !important;
     }
-    #CarouselImgHome{
-        margin-left: -200px;
-    }
-    #labelh1p h1{
-        font-size: 25px;
-    }
+
     #divImg {
-        width: 100%;
-        text-align: center;
+        width: 300px !important;
+        margin-left: 50px !important;
+        padding: 0;
     }
     .about{
         padding: 1%;
+        
     }
     .about .mobile-about{
         display: flex;
@@ -131,63 +215,11 @@ opacity: 1;
         font-size: 30px;
         font-weight: bold;
     }
-    .timeline .timeline-text{
-        font-size: 16px;
-        font-family: 'Work Sans';
-    }
-    .download .download-row{
-        padding-top: 30px;
-    }
-    
-    .download-app-img-mobile, .download-app{
-        flex-direction: column-reverse;
-    }
-
-    .download-app-img-mobile{
-        display: block;
-    }
-    .download-app-img{
-        display: none;
-    }
-    .faq #questions{
-        font-size: 30px;
-    }
-    .mck-sidebox-launcher{
-        position: relative;
-        top: 20 !important;
-    }
-    .call-to-action h2{
-        font-size: 34px;
+    .timeline-text{
+        font-size: 15px;
     }
 }
 
-@media (max-width : 768px){
-    #signupMenu{
-        margin-top: 15px;
-    }
-    .about-mobile #about-text-mobile{
-        text-align: center;
-        margin-top: 12px;
-    }
-    .call-to-action h2{
-        font-size: 28px;
-    }
-    .download{
-        padding-top: 4%;
-    }
-    
-}
-
-@media (min-width : 1024px){
-    #labelh1p h1{
-        font-size: 30px;
-        word-spacing: normal;
-    }
-}
-.mck-sidebox-launcher{
-    position: relative;
-    top: 20px !important;
-}
 #CarouselImgHome {
     height: 350px !important;
     width: 450px !important;

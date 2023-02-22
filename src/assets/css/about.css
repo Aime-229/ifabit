@@ -19,7 +19,9 @@ p{
 
 /* New CSS 13/02/2023 */
 
-
+.col-portfeuille1{
+    border-right: 25px dotted grey!important;
+}
 
 @media (max-width : 576px){
     .ifapay{

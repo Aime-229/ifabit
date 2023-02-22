@@ -35,10 +35,10 @@ function Echanges () {
    
     return(
         <div>
-        <Helmet>
+        {/* <Helmet>
             <title>Echanges de devises numériques | IFABIT</title>
-        </Helmet>
-            <Navbar />
+        </Helmet> */}
+            {/* <Navbar /> */}
                 <div className='bg-ifa'>
                     <div className='container py-5 text-white'>
                         <h2 className='text-uppercase text-center title'>IFA Exchanges</h2>
